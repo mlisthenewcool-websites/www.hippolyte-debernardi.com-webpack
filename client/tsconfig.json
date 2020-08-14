@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "sourceMap": true
+
+    // "experimentalDecorators": true,
+
+    // if false, error with FormData definition
+    // "skipLibCheck": false,
+
+    // hack for skipLibCheck=false
+    // https://github.com/DefinitelyTyped/DefinitelyTyped/issues/33311
+
+    // add "jest" to next types
+    // "types": ["react", "node"]
+  },
+  "include": ["src"]
+}
