@@ -7,7 +7,7 @@ import { MyRouteProps } from '../../@types';
 
 import { TheContainer } from './TheContainer';
 import { TheHeader } from './TheHeader';
-// import { TheMenu } from './TheMenu';
+import { TheMenu } from './TheMenu';
 import { TheSidebar } from './TheSidebar';
 import { TheContent } from './TheContent';
 
@@ -122,7 +122,7 @@ export const TheApp = ({ routes }: TheAppProps) => (
     {/* Set browser router at app's root to use links wherever you want */}
     <BrowserRouter>
       <TheHeader routes={routes} />
-      {/* <TheMenu routes={routes}/> */}
+      <TheMenu routes={routes} />
 
       <TheContainer>
         <TheSidebar />
